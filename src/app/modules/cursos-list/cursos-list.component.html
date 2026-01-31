@@ -1,1 +1,11 @@
-<p>cursos-list works!</p>
+<p>Lista de cursos do portal {{ nomePortal }}</p>
+
+<app-cursos-details></app-cursos-details>
+
+@for (courses of cursos; track courses) {
+  <ul>
+    <li>
+      <strong>{{ courses }}</strong>
+    </li>
+  </ul>
+}
