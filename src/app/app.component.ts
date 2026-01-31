@@ -3,6 +3,7 @@ import { RouterOutlet } from '@angular/router';
 import { MeuPrimeiroComponent } from './meu-primeiro/meu-primeiro.component';
 import { MeuPrimeiro2Component } from './meu-primeiro2/meu-primeiro2.component';
 import { CursosComponent } from './modules/cursos/cursos.component';
+import { DataBindingComponent } from './data-binding/data-binding.component';
 
 @Component({
   selector: 'app-root',
@@ -12,6 +13,7 @@ import { CursosComponent } from './modules/cursos/cursos.component';
     MeuPrimeiroComponent,
     MeuPrimeiro2Component,
     CursosComponent,
+    DataBindingComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
